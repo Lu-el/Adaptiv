@@ -1,4 +1,13 @@
 @import './var.css';
-@import './fonts.css';
+@import './font.css';
 @import './normalize.css';
 @import './global.css';
+@import './hero.css';
+@import './header.css';
+@import './logo-block.css';
+@import './caption.css';
+@import './advantages.css';
+@import './slaiders.css';
+@import './contact.css';
+@import './footer.css';
+

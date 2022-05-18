@@ -13,11 +13,11 @@ body {
   min-width: 320px;
   min-height: 100vh;
 
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 20px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 18px;
   font-weight: 400;
   color: var(--main-color);
-  background-color: var(--bcg-color);
+  background-color: #F9F9F9;
 }
 
 
@@ -43,7 +43,8 @@ a {
   color: inherit;
 }
 
-ul {
+ul,
+ol {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -80,11 +81,70 @@ iframe {
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 1260px;
   padding: 0 30px;
   margin: 0 auto;
 }
 
+.page__container {
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.page__btn {
+  padding: 12px 48px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: var(--alt-color);
+  background: var(--secondary-color);
+  box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+  border-radius: 50px;
+  border: 0;
+}
+
 section {
-  padding: 50px 0;
+  padding: 70px 0;
+}
+
+.page__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .page__btn {
+    padding: 11px 49px;
+  }
+
+  .page__title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+
+  .page__btn {
+    padding: 9px 29px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .page__title {
+    font-size: 20px;
+    line-height: 23px;
+  }
 }

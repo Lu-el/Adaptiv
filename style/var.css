@@ -1,4 +1,9 @@
 :root {
-  --main-color: #ffffff;
+  --main-color: rgba(255, 255, 255, 0.8);
   --secondary-color: #15A9CB;
+  --alt-color: #ffffff;
+}
+
+.advantages {
+  --main-color: #383A4C;
 }

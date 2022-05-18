@@ -1,0 +1,153 @@
+.contact {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../image/contact/background.jpg');
+}
+
+.contact::before {
+  content: '';
+  position: absolute;
+  display: block;
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(47, 50, 75, 0.85);
+  z-index: 1;
+}
+
+.contact__container {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+}
+
+.contact__title {
+  margin-bottom: 17px;
+}
+
+.contact__description {
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.contact__form {
+  margin-bottom: 50px;
+}
+
+.contact__wrapper {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__input {
+  display: block;
+  margin-bottom: 21px;
+  width: 423px;
+  padding: 9px 25px;
+  border: 1px solid var(--alt-color);
+  border-radius: 50px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.contact__input:last-child {
+  margin-bottom: 0;
+}
+
+.contact__input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.contact__agreement {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--alt-color);
+}
+
+.contact__link {
+  color: #4A76A8;
+  border-bottom: #4A76A8 1px solid;
+}
+
+@media (max-width: 1024px) {
+  .contact {
+    padding-bottom: 56px;
+  }
+
+  .contact__description {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .contact__agreement {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .contact__form {
+    margin-bottom: 30px;
+  }
+
+  .contact__input {
+    margin-bottom: 20px;
+    width: 377px;
+    padding: 8px 23px;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .contact__input::placeholder {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .contact__title {
+    margin-bottom: 11px;
+  }
+
+  .contact__description {
+    margin-bottom: 35px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .contact__wrapper {
+    margin-bottom: 45px;
+  }
+
+  .contact__input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .contact__agreement {
+    font-size: 11px;
+    line-height: 13px;
+  }
+}

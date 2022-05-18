@@ -19,14 +19,148 @@
   <link rel="icon" type="image/png" sizes="16x16" href="image/favicon/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="image/favicon/safari-pinned-tab.svg" color="#5bbad5">
-  <link rel="icon" type="image/png"  href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon.ico">
   <link rel="stylesheet" href="./style/index.css">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
+  <div class="page">
+    <div class="caption">
+      <header class="header">
+        <div class="container header__container logo-block">
+          <img class="logo-block__logo" src="./image/logo/Logo.svg" alt="Логотип компании">
+          <div class="logo-block__wrapper">
+            <p class="logo-block__phone">
+              <a href="tel:89625561234" class="logo-block__link logo-block__link_icon">
+                <span class="logo-block__text">
+                  +7 (962) 556 - 1234
+                </span>
+              </a>
+            </p>
+            <p class="logo-block__phone">
+              <a href="#0" class="logo-block__link">
+                <span class="logo-block__text logo-block__text_size_small">
+                  Перезвоните мне
+                </span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </header>
+      <section class="hero">
+        <div class="container hero__container">
+          <h1 class="hero__title">
+            Заголовок c уникальным торговым предложение по системе 4U
+          </h1>
+          <p class="hero__descript">
+            Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+            несколько
+            абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.
+          </p>
+          <button class="page__btn hero__btn">Подробнее</button>
+        </div>
+      </section>
+    </div>
+    <section class="advantages">
+      <div class="container advantages__container">
+        <h2 class="page__title advantages__title">Уникальный заголовок для преимущества компании</h2>
+        <p class="advantages__subtitle">О нас</p>
+        <p class="advantages__description">
+          Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
+          осмысленного текста рыбы на русском языке, а начинающему оратору отточить.
+        </p>
+        <div class="slaiders">
+          <input class="slaiders__radio visually-hidden" type="radio" name="slaiders" id="slider1">
+          <input class="slaiders__radio visually-hidden" type="radio" name="slaiders" id="slider2" checked>
+          <input class="slaiders__radio visually-hidden" type="radio" name="slaiders" id="slider3">
+          <input class="slaiders__radio visually-hidden" type="radio" name="slaiders" id="slider4">
 
+
+          <div class="slaiders__wrapper">
+            <ol class="slaiders__list">
+              <li class="slaiders__item">
+                <p class="slaiders__content">Первое целевое преимущество</p>
+              </li>
+              <li class="slaiders__item">
+                <p class="slaiders__content">Второе целевое преимущество</p>
+              </li>
+              <li class="slaiders__item">
+                <p class="slaiders__content">Третье целевое преимущество</p>
+              </li>
+              <li class="slaiders__item">
+                <p class="slaiders__content">Четвертое целевое преимущество</p>
+              </li>
+            </ol>
+          </div>
+
+
+          <div class="slaiders__labels">
+            <label class="slaiders__label" for="slider1"></label>
+            <label class="slaiders__label" for="slider2"></label>
+            <label class="slaiders__label" for="slider3"></label>
+            <label class="slaiders__label" for="slider4"></label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container contact__container">
+        <h2 class="page__title contact__title">Остались вопросы?</h2>
+        <p class="contact__description">
+          Оставьте номер телефона, и мы перезвоним вам
+        </p>
+        <form class="contact__form">
+          <div class="contact__wrapper">
+            <input type="text" class="contact__input" placeholder="Ваше имя" name="user_name">
+            <input type="tel" class="contact__input" placeholder="Телефон" name="user_telephone">
+            <input type="email" class="contact__input" placeholder="E-mail" name="user_mail">
+          </div>
+
+          <button class="page__btn">Позвоните мне</button>
+        </form>
+        <p class="contact__agreement">
+          Я даю своё <a href="#" class="contact__link">согласие</a> на обработку моих персональных данных.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__wrapper">
+          <img class="footer__logo logo-block__logo" src="./image/logo/Logo.svg" alt="Логотип компании">
+          <div class="footer__copyright">
+            <p class="footer__text">
+              © 2022 XXXcompany.</p>
+            <p class="footer__text">
+              Все права защищены.
+            </p>
+          </div>
+        </div>
+        <p class="footer__text footer__text_opasity_half footer__text_order_end">
+          Сделано в Ивановым Иваном
+        </p>
+        <div class="logo-block__block">
+          <p class="logo-block__phone">
+            <a href="tel:89625561234" class="logo-block__link logo-block__link_icon">
+              <span class="logo-block__text">
+                +7 (962) 556 - 1234
+              </span>
+            </a>
+          </p>
+          <p class="logo-block__phone">
+            <a href="#0" class="logo-block__link">
+              <span class="logo-block__text logo-block__text_size_small">
+                Перезвоните мне
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>
