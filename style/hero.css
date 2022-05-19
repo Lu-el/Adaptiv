@@ -1,5 +1,6 @@
 .hero {
   padding-bottom: 0;
+  padding-top: 120px;
   text-align: center;
 }
 
@@ -30,6 +31,10 @@
 }
 
 @media (max-width: 1024px) {
+  .hero {
+    padding-top: 70px;
+  }
+
   .hero__container {
     max-width: 840px;
   }
@@ -48,6 +53,10 @@
 }
 
 @media (max-width: 480px) {
+  .hero {
+    padding-top: 35px;
+  }
+
   .hero__container {
     max-width: 480px;
   }
@@ -62,5 +71,9 @@
     margin-bottom: 54px;
     font-size: 14px;
     line-height: 20px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
   }
 }

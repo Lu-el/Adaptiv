@@ -3,8 +3,9 @@
 @import './normalize.css';
 @import './global.css';
 @import './hero.css';
+@import './logo.css';
 @import './header.css';
-@import './logo-block.css';
+@import './phone.css';
 @import './caption.css';
 @import './advantages.css';
 @import './slaiders.css';

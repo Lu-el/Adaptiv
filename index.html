@@ -29,23 +29,23 @@
   <div class="page">
     <div class="caption">
       <header class="header">
-        <div class="container header__container logo-block">
-          <img class="logo-block__logo" src="./image/logo/Logo.svg" alt="Логотип компании">
-          <div class="logo-block__wrapper">
-            <p class="logo-block__phone">
-              <a href="tel:89625561234" class="logo-block__link logo-block__link_icon">
-                <span class="logo-block__text">
-                  +7 (962) 556 - 1234
-                </span>
-              </a>
-            </p>
-            <p class="logo-block__phone">
-              <a href="#0" class="logo-block__link">
-                <span class="logo-block__text logo-block__text_size_small">
-                  Перезвоните мне
-                </span>
-              </a>
-            </p>
+        <div class="container header__container">
+          <a title="Логотип компании" class="logo">
+            <img class="logo__img" src="./image/logo/Logo.svg" alt="Логотип компании">
+          </a>
+          <div class="phone">
+            <a href="tel:89625561234" class="phone__link">
+              <span class="phone__icon"></span>
+              <span class="phone__number">
+                +7 (962) 556 - 1234
+              </span>
+            </a>
+            <a href="#0" class="phone__link">
+              <span class="phone__text">
+                Перезвоните мне
+              </span>
+            </a>
+
           </div>
         </div>
       </header>
@@ -130,7 +130,9 @@
     <footer class="footer">
       <div class="container footer__container">
         <div class="footer__wrapper">
-          <img class="footer__logo logo-block__logo" src="./image/logo/Logo.svg" alt="Логотип компании">
+          <a title="Логотип компании" class="logo footer__logo">
+            <img class="logo__img" src="./image/logo/Logo.svg" alt="Логотип компании">
+          </a>
           <div class="footer__copyright">
             <p class="footer__text">
               © 2022 XXXcompany.</p>
@@ -139,24 +141,22 @@
             </p>
           </div>
         </div>
-        <p class="footer__text footer__text_opasity_half footer__text_order_end">
+        <p class="footer__author">
           Сделано в Ивановым Иваном
         </p>
-        <div class="logo-block__block">
-          <p class="logo-block__phone">
-            <a href="tel:89625561234" class="logo-block__link logo-block__link_icon">
-              <span class="logo-block__text">
-                +7 (962) 556 - 1234
-              </span>
-            </a>
-          </p>
-          <p class="logo-block__phone">
-            <a href="#0" class="logo-block__link">
-              <span class="logo-block__text logo-block__text_size_small">
-                Перезвоните мне
-              </span>
-            </a>
-          </p>
+        <div class="phone">
+          <a href="tel:89625561234" class="phone__link">
+            <span class="phone__icon"></span>
+            <span class="phone__number">
+              +7 (962) 556 - 1234
+            </span>
+          </a>
+          <a href="#0" class="phone__link">
+            <span class="phone__text">
+              Перезвоните мне
+            </span>
+          </a>
+
         </div>
       </div>
     </footer>

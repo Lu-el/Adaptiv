@@ -27,8 +27,15 @@
   line-height: 17px;
 }
 
+.footer__author {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+}
+
 @media (max-width: 1024px) {
-  .footer__text_opasity_half {
+  .footer__author {
     opacity: .5;
   }
 }
@@ -45,7 +52,7 @@
     row-gap: 25px;
   }
 
-  .footer__text_order_end {
+  .footer__author {
     order: 1;
     width: 100%;
     padding: 15px;

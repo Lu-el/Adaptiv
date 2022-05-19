@@ -69,9 +69,17 @@
     line-height: 23px;
   }
 
+  .slaiders__item {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
   .slaiders__item::before {
+    margin-bottom: 26px;
     width: 104px;
     height: 104px;
+    font-size: 52px;
+    line-height: 73px;
     font-size: 52px;
     line-height: 73px;
   }
@@ -79,16 +87,6 @@
   .slaiders__content {
     font-size: 18px;
     line-height: 25px;
-  }
-
-  .slaiders__item {
-    font-size: 18px;
-    line-height: 25px;
-  }
-
-  .slaiders__item::before {
-    font-size: 52px;
-    line-height: 73px;
   }
 }
 
@@ -110,7 +108,7 @@
 @media (max-width: 480px) {
   .slaiders {
     width: 100%;
-    height: 167px;
+    height: 182px;
   }
 
   .slaiders__wrapper {

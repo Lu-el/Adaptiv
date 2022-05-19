@@ -144,6 +144,13 @@
   .contact__input {
     width: 100%;
     margin-bottom: 15px;
+    padding: 6px 18px;
+  }
+
+  .contact__input::placeholder,
+  .contact__input {
+    font-size: 14px;
+    line-height: 16px;
   }
 
   .contact__agreement {
