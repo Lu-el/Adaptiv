@@ -1,7 +1,7 @@
 .caption {
   position: relative;
   padding-top: 40px;
-  padding-bottom: 120px;
+  padding-bottom: 124px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -29,6 +29,6 @@
 @media (max-width: 480px) {
   .caption {
     padding-top: 15px;
-    padding-bottom: 65px;
+    padding-bottom: 64px;
   }
 }

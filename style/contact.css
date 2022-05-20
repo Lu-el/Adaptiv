@@ -23,11 +23,12 @@
 }
 
 .contact__title {
-  margin-bottom: 17px;
+  padding-right: 25px;
+  margin-bottom: 18px;
 }
 
 .contact__description {
-  margin-bottom: 50px;
+  margin-bottom: 48px;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -35,7 +36,7 @@
 }
 
 .contact__form {
-  margin-bottom: 50px;
+  margin-bottom: 51px;
 }
 
 .contact__wrapper {
@@ -48,8 +49,8 @@
 
 .contact__input {
   display: block;
-  margin-bottom: 21px;
-  width: 423px;
+  margin-bottom: 19px;
+  width: 425px;
   padding: 9px 25px;
   border: 1px solid var(--alt-color);
   border-radius: 50px;
@@ -86,12 +87,23 @@
   border-bottom: #4A76A8 1px solid;
 }
 
+.contact__btn {
+  padding: 12px 37px;
+}
+
 @media (max-width: 1024px) {
   .contact {
-    padding-bottom: 56px;
+    padding-bottom: 55px;
+  }
+
+  .contact__title {
+    padding-right: 8px;
+    margin-bottom: 16px;
   }
 
   .contact__description {
+    margin-bottom: 50px;
+    padding-left: 17px;
     font-size: 20px;
     line-height: 23px;
   }
@@ -102,13 +114,17 @@
   }
 
   .contact__form {
-    margin-bottom: 30px;
+    margin-bottom: 31px;
+  }
+
+  .contact__wrapper {
+    margin-bottom: 48px;
   }
 
   .contact__input {
-    margin-bottom: 20px;
-    width: 377px;
-    padding: 8px 23px;
+    margin-bottom: 16px;
+    width: 380px;
+    padding: 9px 23px;
     font-size: 20px;
     line-height: 23px;
     color: rgba(255, 255, 255, 0.5);
@@ -124,26 +140,31 @@
 @media (max-width: 480px) {
   .contact {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 28px;
   }
 
   .contact__title {
-    margin-bottom: 11px;
+    margin-bottom: 14px;
   }
 
   .contact__description {
     margin-bottom: 35px;
     font-size: 12px;
     line-height: 14px;
+    padding-left: 0;
   }
 
   .contact__wrapper {
-    margin-bottom: 45px;
+    margin-bottom: 43px;
+}
+
+  .contact__form {
+    margin-bottom: 32px;
   }
 
   .contact__input {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     padding: 6px 18px;
   }
 
@@ -151,6 +172,10 @@
   .contact__input {
     font-size: 14px;
     line-height: 16px;
+  }
+
+  .contact__btn {
+    padding: 9px 30px;
   }
 
   .contact__agreement {

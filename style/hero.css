@@ -1,6 +1,6 @@
 .hero {
   padding-bottom: 0;
-  padding-top: 120px;
+  padding-top: 119px;
   text-align: center;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .hero__title {
-  margin-bottom: 35px;
+  margin-bottom: 33px;
   font-style: normal;
   font-weight: 900;
   font-size: 52px;
@@ -21,7 +21,7 @@
 }
 
 .hero__descript {
-  margin-bottom: 90px;
+  margin-bottom: 88px;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -36,7 +36,7 @@
   }
 
   .hero__container {
-    max-width: 840px;
+    max-width: 826px;
   }
 
   .hero__title {
@@ -46,15 +46,23 @@
   }
 
   .hero__descript {
-    margin-bottom: 60px;
+    margin-bottom: 58px;
     font-size: 18px;
     line-height: 25px;
+  }
+
+  .hero__btn {
+    padding: 12px 49px;
   }
 }
 
 @media (max-width: 480px) {
   .hero {
-    padding-top: 35px;
+    padding-top: 32px;
+  }
+
+  .hero__btn {
+    padding: 10px 39px;
   }
 
   .hero__container {
@@ -62,13 +70,13 @@
   }
 
   .hero__title {
-    margin-bottom: 23px;
+    margin-bottom: 24px;
     font-size: 20px;
     line-height: 23px;
   }
 
   .hero__descript {
-    margin-bottom: 54px;
+    margin-bottom: 53px;
     font-size: 14px;
     line-height: 20px;
     overflow: hidden;

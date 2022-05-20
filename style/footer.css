@@ -1,6 +1,6 @@
 .footer {
   background-color: #2F324B;
-  padding-top: 45px;
+  padding-top: 47px;
   color: var(--alt-color);
   padding-bottom: 45px;
 }
@@ -35,7 +35,12 @@
 }
 
 @media (max-width: 1024px) {
+  .footer {
+    padding-top: 36px;
+  }
+
   .footer__author {
+    margin-left: -23px;
     opacity: .5;
   }
 }
@@ -65,6 +70,13 @@
 @media (max-width: 480px) {
   .footer {
     background-image: linear-gradient(to top, #2A2C3F 37%, #2F324B 37%);
+    padding-top: 24px;
+  }
+
+  .footer__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 11px;
   }
 }
-

@@ -5,6 +5,11 @@
 
 .phone__link {
   display: block;
+  margin-bottom: 4px;
+}
+
+.phone__link:last-child {
+  margin-bottom: 0;
 }
 
 .phone__number {
@@ -26,9 +31,17 @@
 }
 
 @media (max-width: 1024px) {
+  .phone__link {
+    margin-bottom: 2px;
+  }
+
   .phone__number {
     font-size: 21px;
     line-height: 25px;
+  }
+
+  .phobe__link {
+    margin-bottom: 4px;
   }
 
   .phone__text {
