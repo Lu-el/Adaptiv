@@ -23,6 +23,7 @@
   .caption {
     padding-top: 26px;
     padding-bottom: 70px;
+    background-image: url('../image/hero/caption-laptop-bkg.jpg');
   }
 }
 
@@ -30,5 +31,6 @@
   .caption {
     padding-top: 15px;
     padding-bottom: 64px;
+    background-image: url('../image/hero/caption-mobile-bkg.jpg');
   }
 }

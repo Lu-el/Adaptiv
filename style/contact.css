@@ -2,7 +2,7 @@
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('../image/contact/background.jpg');
+  background-image: url('../image/contact/contact-bkg.jpg');
 }
 
 .contact::before {
@@ -93,7 +93,7 @@
 
 @media (max-width: 1024px) {
   .contact {
-    padding-bottom: 55px;
+    padding-bottom: 57px;
   }
 
   .contact__title {
@@ -102,7 +102,7 @@
   }
 
   .contact__description {
-    margin-bottom: 50px;
+    margin-bottom: 48px;
     padding-left: 17px;
     font-size: 20px;
     line-height: 23px;
@@ -114,7 +114,7 @@
   }
 
   .contact__form {
-    margin-bottom: 31px;
+    margin-bottom: 30px;
   }
 
   .contact__wrapper {
@@ -139,16 +139,18 @@
 
 @media (max-width: 480px) {
   .contact {
-    padding-top: 30px;
+    padding-top: 31px;
     padding-bottom: 28px;
+    background-image: url('../image/contact/contact-bkg-mobile.jpg');
   }
 
   .contact__title {
     margin-bottom: 14px;
+    padding-left: 7px;
   }
 
   .contact__description {
-    margin-bottom: 35px;
+    margin-bottom: 34px;
     font-size: 12px;
     line-height: 14px;
     padding-left: 0;
